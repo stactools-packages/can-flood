@@ -1,16 +1,16 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stactools-packages/ephemeral/main?filepath=docs/installation_and_basic_usage.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stactools-packages/can-flood/main?filepath=docs/installation_and_basic_usage.ipynb)
 
-# stactools-ephemeral
+# stactools-can-flood
 
-- Name: ephemeral
-- Package: `stactools.ephemeral`
-- PyPI: https://pypi.org/project/stactools-ephemeral/
+- Name: can-flood
+- Package: `stactools.can_flood`
+- PyPI: https://pypi.org/project/stactools-can-flood/
 - Owner: @githubusername
 - Dataset homepage: http://example.com
 - STAC extensions used:
   - [proj](https://github.com/stac-extensions/projection/)
 - Extra fields:
-  - `ephemeral:custom`: A custom attribute
+  - `can-flood:custom`: A custom attribute
 
 A short description of the package and its usage.
 
@@ -26,7 +26,7 @@ A short description of the package and its usage.
 Description of the command line functions
 
 ```bash
-$ stac ephemeral create-item source destination
+$ stac can-flood create-item source destination
 ```
 
-Use `stac ephemeral --help` to see all subcommands and options.
+Use `stac can-flood --help` to see all subcommands and options.
